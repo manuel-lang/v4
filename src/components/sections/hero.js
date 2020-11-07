@@ -48,13 +48,18 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Manuel Lang.</h2>;
+  const three = <h3 className="big-heading">I build data driven solutions.</h3>;
   const four = (
-    <p>
-      I'm a software engineer based in Boston, MA specializing in building (and occasionally
-      designing) exceptional websites, applications, and everything in between.
-    </p>
+    <>
+      <p>
+        I'm a co-founder and machine learning engineer based in Karlsruhe, Germany focussing on data
+        science, machine learning and software development.
+      </p>
+      <p>
+        Find out more about our componany at <a href="https://www.reasonance/de">reasonance.de</a>.
+      </p>
+    </>
   );
   const five = (
     <a href={`mailto:${email}`} className="email-link">
